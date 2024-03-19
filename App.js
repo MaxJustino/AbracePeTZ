@@ -1,11 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { StatusBar, Pressable, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Petz</Text>
+      <Text>Login no Sistema</Text>
       <StatusBar style="auto" />
+      {/* Adicione os campos de entrada TextInput aqui */}
+      <Pressable>
+        <Text>Logar</Text>
+      </Pressable>
+      <Pressable>
+        <Text>Esqueci a senha</Text>
+      </Pressable>
+      <Pressable>
+        <Text>Novo usuário</Text>
+      </Pressable>
     </View>
   );
 }
@@ -13,7 +24,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'blue',
     alignItems: 'center',
     justifyContent: 'center',
   },
