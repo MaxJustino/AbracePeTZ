@@ -20,7 +20,7 @@ export default function App() {
           autoComplete='email'
           
         />
-
+        
         <TextInput style={inputStyles.formInput}
           placeholder='Informe a sua Senha'
           autoCapitalize='none'
@@ -28,7 +28,7 @@ export default function App() {
         />
 
         <Pressable style={styles.formButton}>
-          <Text style={styles.textButton}>Logar</Text>
+          <Text style={styles.textButton}>Entrar</Text>
         </Pressable>
 
         <View style={styles.subContainer}></View>
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   formTitle: {
-    fontSize: 36,
+    fontSize: 25,
     fontWeight: 'bold',
     color: 'green',
     margin: 10,
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   formButton: {  //Estilos do botão LOGAR
     
     backgroundColor: 'green',
-    width: '80%',
+    width: '60%',
     margin: 10,
     padding: 10,
     borderRadius: 10,
@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   subTextButton: {
-    color: 'blueViolet',
+    color: 'red',
   },
 
 
