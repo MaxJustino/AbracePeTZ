@@ -46,6 +46,9 @@ export default function App() {
   );
 }
 
+
+
+//STYLES
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -60,7 +63,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
   
-  formButton: {  //Estilos do botão LOGAR
+  formButton: {  //Estilos do botão "ENTRAR"
     
     backgroundColor: 'green',
     width: '60%',
@@ -69,6 +72,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     alignItems: 'center',
   },
+
+  //Botão cor do botão "ENTRAR"
   textButton: {
     color: 'white',
     fontSize: 20,

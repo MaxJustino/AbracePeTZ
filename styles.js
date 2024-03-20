@@ -15,5 +15,7 @@ export const inputStyles = StyleSheet.create({
     margin: 10,
 
   },
+
+  
 });
 
